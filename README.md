@@ -1,2 +1,2 @@
-# zhihu-dialy
-react app for zhihu-daily
+# app
+react app 
