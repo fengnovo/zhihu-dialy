@@ -1,0 +1,119 @@
+#container {
+    /*height: 100%;*/
+}
+.mdl-layout {
+    overflow-y: scroll;
+    height: auto;
+}
+
+@media screen and (min-width: 1025px) {
+.mdl-layout__drawer-button {
+    display: none;
+}
+
+}
+
+#header {
+    position: fixed;
+    top: 0;
+}
+
+#drawer {
+    height: 100%;
+    overflow: scroll;
+    position: fixed;
+}
+
+.m-b-10 {
+    /*margin-bottom: 3rem;*/
+}
+
+.content-list {
+    width: 100%;
+    ul {
+        /*max-width: 800px;*/
+        width: 100%;
+        list-style: none;
+        margin: 4rem auto 0;
+        text-align: center;
+    }
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+        width: 14rem;
+        min-height: 16rem;
+        margin: 50px 10px 0 10px;
+        padding: 10px; 
+        background-color: #fff; 
+        vertical-align: top;
+    }
+
+    ul li a {
+        text-decoration: none;
+        
+    }
+
+    ul li a:link {color: #000}		/* 未访问的链接 */
+    ul li a:visited {color: #777}	/* 已访问的链接 */
+    ul li a:hover {color: #ccc}	/* 鼠标移动到链接上 */
+    ul li a:active {color: #ccc}	/* 选定的链接 */
+
+    ul li img {
+        width: 100%;
+        max-width: 14rem;
+        margin-bottom: 10px; 
+    }
+
+    ul li span {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+
+
+.loading-pos {
+    height: 3rem;
+    margin: 2rem auto 0;
+}
+
+#detail-content {
+    margin: 1rem 1rem 1rem;
+
+}
+
+#detail-content .banner{
+    height: 25rem;
+    background-size: cover;
+    width: 100%;
+    background: 10%;
+    overflow: hidden;
+    padding: 10rem 0 0;
+}
+
+#detail-content .title {
+    display: block;
+    font-size: 1.4rem;
+    color: hsla(0,0%,100%,.8);
+    background-color: rgba(0,0,0,.4);
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    margin-top: 23rem;
+    line-height: 2rem;
+}
+
+#detail-content #content-pic img {
+    max-width: 100%;
+}
+
+#detail-content #content-pic *{
+    font-size: 1.2rem !important;
+}
+
+
+
+/*.comment {
+    width: 
+}*/

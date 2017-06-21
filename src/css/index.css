@@ -1,5 +1,6 @@
 @import './materiral/index.css';
 
 @import './B.css';
-@import './home.css';
+@import './home.scss';
+@import './Detail.css';
 

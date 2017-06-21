@@ -7,6 +7,66 @@
     <title>Document</title>
 </head>
 <body>
-     
+                                     <div className="mdl-color-text--primary-contrast mdl-card__supporting-text comments">
+                                    <form>
+                                        <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <textarea rows='1' className="mdl-textfield__input" id="comment"></textarea>
+                                            <label htmlFor="comment" className="mdl-textfield__label">Join the discussion</label>
+                                        </div>
+                                        <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                            <i className="material-icons" role="presentation">check</i><span className="visuallyhidden">add comment</span>
+                            </button>
+                                    </form>
+                                    <div className="comment mdl-color-text--grey-700">
+                                        <header className="comment__header">
+                                            <img src={user}  className="comment__avatar" />
+                                            <div className="comment__author">
+                                                <strong>James Splayd</strong>
+                                                <span>2 days ago</span>
+                                            </div>
+                                        </header>
+                                        <div className="comment__text">
+                                            In in culpa nulla elit esse. Ex cillum enim aliquip sit sit ullamco ex eiusmod fugiat. Cupidatat ad minim officia mollit
+                                            laborum magna dolor tempor cupidatat mollit. Est velit sit ad aliqua ullamco laborum excepteur
+                                            dolore proident incididunt in labore elit.
+                                        </div>
+                                        <nav className="comment__actions">
+                                            <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i className="material-icons" role="presentation">thumb_up</i><span className="visuallyhidden">like comment</span>
+                            </button>
+                                            <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i className="material-icons" role="presentation">thumb_down</i><span className="visuallyhidden">dislike comment</span>
+                            </button>
+                                            <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i className="material-icons" role="presentation">share</i><span className="visuallyhidden">share comment</span>
+                            </button>
+                                        </nav>
+                                        <div className="comment__answers">
+                                            <div className="comment">
+                                                <header className="comment__header">
+                                                    <img src={user} className="comment__avatar" />
+                                                    <div className="comment__author">
+                                                        <strong>John Dufry</strong>
+                                                        <span>2 days ago</span>
+                                                    </div>
+                                                </header>
+                                                <div className="comment__text">
+                                                    Yep, agree!
+                                                </div>
+                                                <nav className="comment__actions">
+                                                    <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                    <i className="material-icons" role="presentation">thumb_up</i><span className="visuallyhidden">like comment</span>
+                                </button>
+                                                    <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                    <i className="material-icons" role="presentation">thumb_down</i><span className="visuallyhidden">dislike comment</span>
+                                </button>
+                                                    <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                    <i className="material-icons" role="presentation">share</i><span className="visuallyhidden">share comment</span>
+                                </button>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 </body>
 </html>
