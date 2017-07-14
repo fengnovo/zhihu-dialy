@@ -16,7 +16,7 @@ render(<Router history={history}>
              <Route render={({ location }) => {
                   return(
                         <div>
-                            <Route location={location} exact path="/" component={CnodeHome} />
+                            <Route location={location} exact path="/" component={Home} />
                             <Route location={location} path="/home" component={Home} />
                             <Route location={location} path="/detail/:id" component={Detail} />
                             <Route location={location} path="/cnodeHome/:id" component={CnodeHome} />

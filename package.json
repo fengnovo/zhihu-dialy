@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev webpack-dev-server --progress --profile --colors --port 9090 --host 0.0.0.0 --hot --inline",
+    "start": "cross-env NODE_ENV=dev webpack-dev-server --progress --profile --colors --hot --inline",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --profile --colors --hot --inline",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "rm -fr ./build && cross-env NODE_ENV=production webpack --progress --profile --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "fengnovo",
